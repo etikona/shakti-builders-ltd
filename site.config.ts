@@ -14,14 +14,14 @@ const unsplash = (id: string, w = 2000) =>
 
 export const site: SiteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://example.com",
-  name: "Marlowe & Vale",
+  name: "Shakti Builders Ltd",
   tagline: "Find a place worth calling home.",
-  // logo: { src: "/client/logo.svg", alt: "Marlowe & Vale", width: 160, height: 40 },
+  // logo: { src: "/client/logo.svg", alt: "Shakti Builders Ltd", width: 160, height: 40 },
 
   seo: {
-    title: "Marlowe & Vale | Luxury Real Estate in Miami, New York and Dubai",
+    title: "Shakti Builders Ltd | Luxury Real Estate in Miami, New York and Dubai",
     description:
-      "Curated luxury homes, local expertise and global reach. Buy, sell or rent with Marlowe & Vale.",
+      "Curated luxury homes, local expertise and global reach. Buy, sell or rent with Shakti Builders Ltd.",
     keywords: ["luxury real estate", "Miami homes", "New York penthouses", "Dubai apartments"],
     ogImage: unsplash("photo-1613490493576-7fde63acd811", 1600),
   },
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
     background: "#F7F6F2",
     foreground: "#151515",
     muted: "#77736D",
-    accent: "#A89478",
+    accent: "#FFD700",
     border: "#DEDCD5",
     surface: "#EFECE5",
     dark: "#11110F",
@@ -38,9 +38,9 @@ export const site: SiteConfig = {
   },
 
   contact: {
-    phone: "+1 (305) 555-0142",
-    email: "hello@marlowevale.com",
-    whatsapp: "13055550142",
+    phone: "+8801712137318",
+    email: "shekharmallik732@gmail.com",
+    whatsapp: "8801712137318",
     address: "1200 Brickell Avenue, Suite 400, Miami, FL 33131",
     hours: "Monday to Friday, 9:00 to 18:00. Saturday by appointment.",
   },
@@ -315,7 +315,7 @@ export const site: SiteConfig = {
     headline: "Your next address starts with a conversation.",
     text: "Tell us what you are looking for. An advisor will reply within one business day.",
     primaryCta: { label: "Find your property", href: "#properties" },
-    secondaryCta: { label: "Speak with an advisor", href: "tel:+13055550142" },
+    secondaryCta: { label: "Speak with an advisor", href: "tel:+8801712137318" },
     form: {
       nameLabel: "Full name",
       emailLabel: "Email",
